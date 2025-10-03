@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  border: 1px solid #ddd;
+}
+
+.left-column {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.photo img {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 15px;
+  background: #e3d8d3;
+  padding: 4px 6px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.section p, .section li {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.section ul {
+  list-style: none;
+}
+
+.right-column {
+  width: 70%;
+  padding: 25px 30px;
+}
+
+.header {
+  background: #e3d8d3;
+  padding: 15px 20px;
+  margin: -25px -30px 20px -30px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header h2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #444;
+}
+
+.profile h3, .work h3, .skills h3, .references h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.profile p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.job {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.job .year {
+  width: 90px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.job .details h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.job .position {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.job ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.skills p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.references .ref {
+  margin-bottom: 10px;
+}
+
+.references p {
+  font-size: 14px;
+  line-height: 1.4;
+}
